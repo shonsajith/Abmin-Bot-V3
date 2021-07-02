@@ -142,9 +142,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="Make Own Admin Bot", url="https://github.com/shonsajith/Admin-Bot-v2")],
-                     [InlineKeyboardButton(text="Support Group", url="https://t.me/Movie_House_1"), InlineKeyboardButton(text="Update Channel", url="https://t.me/movie_house_6")],
-                     [InlineKeyboardButton(text="my developer", url="https://t.me/shonsajith"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                    [[InlineKeyboardButton(text="⭕GROUP 1⭕", url="https://t.me/Movie_House_1"),  InlineKeyboardButton(text="⭕GROUP 2⭕", url="https://t.me/Movie_House_4")],
+                     [InlineKeyboardButton(text="⭕️Gᴇᴛ Oᴜʀ Aʟʟ Cʜᴀɴɴᴇʟ Lɪɴᴋs⭕️", url="https://t.me/joinchat/UWxtfOoIUCZOkURm")], 
+                     [InlineKeyboardButton(text="📀Gᴇᴛ Oᴛᴛ & Dᴠᴅ Uᴘᴅᴀᴛᴇs📀", url="https://t.me/joinchat/bTnIluCefhkxNzVl"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
