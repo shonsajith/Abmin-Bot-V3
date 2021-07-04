@@ -144,7 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="⭕GROUP 1⭕", url="https://t.me/Movie_House_1"),  InlineKeyboardButton(text="⭕GROUP 2⭕", url="https://t.me/Movie_House_4")],
                      [InlineKeyboardButton(text="⭕️Gᴇᴛ Oᴜʀ Aʟʟ Cʜᴀɴɴᴇʟ Lɪɴᴋs⭕️", url="https://t.me/joinchat/UWxtfOoIUCZOkURm")], 
-                     [InlineKeyboardButton(text="📀Gᴇᴛ Oᴛᴛ & Dᴠᴅ Uᴘᴅᴀᴛᴇs📀", url="https://t.me/joinchat/bTnIluCefhkxNzVl"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
+                     [InlineKeyboardButton(text="📀Gᴇᴛ Oᴛᴛ & Dᴠᴅ Uᴘᴅᴀᴛᴇs📀", url="https://t.me/joinchat/bTnIluCefhkxNzVl")]])
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
