@@ -142,7 +142,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="⭕GROUP 1⭕", url="https://t.me/Movie_House_1"),  InlineKeyboardButton(text="⭕GROUP 2⭕", url="https://t.me/Movie_House_4")],
+                    [[InlineKeyboardButton(text="⭕GROUP 1⭕", url="https://t.me/Movie_House_1"),  InlineKeyboardButton(text="⭕GROUP 2⭕", url="https://t.me/Movie_House_Group_2")],
                      [InlineKeyboardButton(text="⭕️Gᴇᴛ Oᴜʀ Aʟʟ Cʜᴀɴɴᴇʟ Lɪɴᴋs⭕️", url="https://t.me/joinchat/UWxtfOoIUCZOkURm")], 
                      [InlineKeyboardButton(text="📀Gᴇᴛ Oᴛᴛ & Dᴠᴅ Uᴘᴅᴀᴛᴇs📀", url="https://t.me/joinchat/bTnIluCefhkxNzVl") ]]))
 
